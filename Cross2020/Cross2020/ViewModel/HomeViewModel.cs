@@ -5,7 +5,7 @@ namespace Cross2020.ViewModel
 {
     public class HomeViewModel
     {
-        public ObservableCollection<Filme> filmes = new ObservableCollection<Filme>();
+        private ObservableCollection<Filme> filmes = new ObservableCollection<Filme>();
         public ObservableCollection<Filme> Filmes {
             get
             {
